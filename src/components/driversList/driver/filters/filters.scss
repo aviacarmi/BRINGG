@@ -1,0 +1,10 @@
+.filters{
+    left: 20px;
+    display: grid;
+    width: 300px;
+
+    .filter{
+        margin: 2px;
+        border-radius: 5px;
+    }
+}

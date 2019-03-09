@@ -1,0 +1,29 @@
+.drivers-list{
+    font-family: cursive;
+    width: 25%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+    .drivers-list-filters{
+        height: 20%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .drivers-list-data{
+        overflow: scroll;
+        border: 2px solid #ccc;
+        height: 70%;
+    }
+
+    .driver-wrapper{
+        border: 1px solid;
+        padding: 1em;
+        border-color: #807e7e3d;
+        margin: 1em;
+        box-shadow: 1px 2px #88888861;
+    }
+}

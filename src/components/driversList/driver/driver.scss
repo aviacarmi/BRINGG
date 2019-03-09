@@ -1,0 +1,19 @@
+.driver{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .data{
+        display: grid;
+        margin: 5px;
+        
+        .name{
+            font-size: 1.3em;
+        }
+    }
+
+    .picture{
+        border-radius: 50%;
+        width: 5em;
+    }
+}
